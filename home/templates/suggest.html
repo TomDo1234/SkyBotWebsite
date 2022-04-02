@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Skybot Dashboard</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Blueskies Bot help</title>
+        {% load static %}
+        <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
+        <style>
+            #head{
+                background-color: #bfbfbf;
+                display: flexbox;
+                border-radius: 5px;
+                margin-right: 60px;
+                margin-left: 60px;
+                padding-bottom: 20px;
+            }
+            #search{
+                background-color: #bfbfbf;
+                display: block;
+                border-radius: 5px;
+                margin-right: 60px;
+                margin-left: 60px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <nav class="navbar navbar-expand-xl navbar-light bg-light" style="background-color: #517a96;">
+                <div class="container-fluid container">
+                    <a class="navbar-brand" href="/home">
+                        <img src="static/images/favicon.ico" width="50" height="50" class="rounded-circle"> <span>SkyBot</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="nabvarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nabvarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <a class="nav-item nav-link" href="https://github.com/AloneInSky/Blueskies" target="_blank"> <span style="color:blue">Sugest commands</span> </a>
+                            <a class="nav-link nav-item" href="https://discord.gg/s4bQv6Hw8y" target="_blank"> <span style="color:blue">Discord server</span> </a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Supports</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Support Channel</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Developer Github</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-flex ml-auto" id="headerlogin">
+                        <a class="nav-item nav-link btn btn-outline-secondary login" style="list-style: none;" href="/login">Login</a>
+                    </div>
+                </div>
+            </nav>
+        <div id="head"><br>
+            <img src="static/images/idea.png" width="35px" style="padding-left: 40px;"><b style="padding-left: 45px;font-size: larger;">Suggestions   ~~~ open | ~~ completed | ~~~ rejected</b>
+        </div><br>
+        <div id="search">
+            <b style="font-size: larger; padding-left: 80px;">Searchbar </b>
+        </div>
+    </body>
+</html>
