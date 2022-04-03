@@ -1,1 +1,1 @@
-web: gunicorn demo.wsgi --log-file -
+web: gunicorn BlueskiesWEB.wsgi --log-file -
