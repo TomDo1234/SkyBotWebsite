@@ -16,7 +16,8 @@
             <nav class="navbar navbar-expand-xl navbar-light bg-light" style="background-color: #517a96;">
                 <div class="container-fluid container">
                     <a class="navbar-brand" href="/home">
-                        <img src="/static/images/favicon.ico" width="50" height="50" class="rounded-circle"> <span>SkyBot</span>
+                        {% load static %}
+                        <img src="{% static 'images/favicon.ico %}" width="50" height="50" class="rounded-circle"> <span>SkyBot</span>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="nabvarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
