@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ua%s#99^n78lx-f+kb-5o7k5(7@z3!(ie%v_5jjr1bi&t7tq2z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aloneinskybot.herokuapp.com']
+ALLOWED_HOSTS = ['aloneinskybot.herokuapp.com','127.0.0.1']
 
 
 # Application definition
